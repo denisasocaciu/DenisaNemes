@@ -3,7 +3,7 @@ package ro.sci;
 import java.util.Scanner;
 
 public class prim {
-    public static void main(String[] args) {
+    public static void main(String [] args) {
         System.out.println("Input a number to verify if it is prime or composite");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
