@@ -14,7 +14,7 @@ public class calc {
         CalculatePrice(priceInit, vat);
     }
     public static void CalculatePrice(double priceInit, double vat) {
-        double a = priceInit + ((19 * priceInit) / 100);
+        double a = priceInit + ((vat * priceInit) / 100);
         System.out.println("THe price with VAT is " + a);
     }
 }
